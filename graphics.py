@@ -16,3 +16,6 @@ class Graphics():
 
 	def heading(self, head):
 		self.tk.title(head)
+
+	def paintBg(self, color):
+		self.tk.bgcolor(color)
