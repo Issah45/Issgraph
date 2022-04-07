@@ -40,3 +40,11 @@ class Sprite():
 	def position(self, x, y):
 		self.x, self.y = x, y
 		self.tk.goto(x, y)
+
+	def changeX(self, change):
+		self.x += change
+		self.position(self.x, self.y)
+
+	def changeY(self, change):
+		self.y += change
+		self.position(self.x, self.y)
