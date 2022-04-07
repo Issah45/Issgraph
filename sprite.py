@@ -36,3 +36,7 @@ class Sprite():
 
 	def paint(self, color):
 		self.tk.color(color)
+
+	def position(self, x, y):
+		self.x, self.y = x, y
+		self.tk.goto(x, y)
