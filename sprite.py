@@ -1,12 +1,10 @@
 import turtle
 
 class Sprite():
-	def __init__(self, x, y, width, height):
+	def __init__(self, x, y):
 		self.x = x
 		self.y = y
 		self.shape = "square"
-		self.width = width
-		self.height = height
 		self.tk = turtle.Turtle()
 		self.tk.speed(0)
 		self.tk.penup()
