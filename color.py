@@ -1,0 +1,15 @@
+
+class Color():
+	red = "red"
+	orange = "orange"
+	green = "green"
+	blue = "blue"
+	lightblue = "lightblue"
+	lightgreen = "lightgreen"
+	lightred = "lightred"
+	lightorange = "lightorange"
+	pink = "pink"
+	purple = "purple"
+	brown = "brown"
+	black = "black"
+	white = "white"

@@ -6,10 +6,10 @@ class Sprite():
 		self.y = y
 		self.shape = "square"
 		self.tk = turtle.Turtle()
-		self.tk.speed(0)
 		self.tk.penup()
 
-	def run(self):
+	def run(self, spd=0):
+		self.tk.speed(spd)
 		self.tk.shape(self.shape)
 		self.tk.goto(self.x, self.y)
 
@@ -46,3 +46,18 @@ class Sprite():
 	def changeY(self, change):
 		self.y += change
 		self.position(self.x, self.y)
+
+	def moveForward(self, steps):
+		self.tk.forward(steps)
+
+	def moveBackward(self, steps):
+		self.tk.backward(steps)
+
+	def move(self, _type, steps):
+		if _type == "Forward":
+			self.moveForward(steps)
+		else:
+			self.moveBackward(steps)
+
+	def turnRight(self, turn):
+		self.tk.right(turn)
