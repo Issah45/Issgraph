@@ -1,4 +1,4 @@
-from issgraph.sprite import Sprite
+from isseng.sprite import Sprite
 
 def collide(x, y, w, h, x2, y2, w2, h2):
 	return x < x2+w2 and x2 < x+w and y < y2+h2 and y2 < y+h
