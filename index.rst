@@ -1,4 +1,0 @@
-Issseng Graphics Docs
-====
-
-Whatevs
