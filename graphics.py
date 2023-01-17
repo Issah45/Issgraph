@@ -41,11 +41,6 @@ class Utils():
         "lshift": pygame.K_LSHIFT,
         "rshift": pygame.K_RSHIFT
     }
-    COLORS = {
-        "red": (255, 0, 0),
-        "green": (0, 255, 0),
-        "blue": (0, 0, 255)
-    }
     def k(i):
         n = pygame.key.get_pressed()
         return n[i]
