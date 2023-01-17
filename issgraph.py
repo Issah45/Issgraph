@@ -1,5 +1,4 @@
 
-from graphics import Graphics, Img, Utils
+from graphics import Graphics, Img, Utils, Mouse
 
 version = (0, 3, 3)
-codename = "A New Preview"

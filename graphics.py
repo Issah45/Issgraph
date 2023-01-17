@@ -26,6 +26,12 @@ class Img():
     def img(i):
         return pygame.image.load(i)
 
+class Mouse():
+    def get_pos():
+        return pygame.mouse.get_pos()
+    def get_pressed():
+        return pygame.mouse.get_pressed()
+
 class Utils():
     KEYS = {
         "right": pygame.K_RIGHT,
