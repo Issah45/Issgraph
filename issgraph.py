@@ -1,4 +1,4 @@
 
 from graphics import Graphics, Img, Utils, Mouse
 
-version = (1, 0, 0)
+version = (1, 0, 1)
