@@ -1,5 +1,5 @@
 
 from graphics import Graphics, Img, Utils, Mouse
 
-version = (0, 3, 6)
-codename = "Adventure Library 4.0"
+version = (0, 3, 8)
+codename = "Fixing Stuff"

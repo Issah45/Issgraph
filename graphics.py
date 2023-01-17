@@ -35,6 +35,8 @@ class Mouse():
 class Utils():
     def init():
         pygame.init()
+    def fontInit():
+        pygame.font.init()
     KEYS = {
         "right": pygame.K_RIGHT,
         "left": pygame.K_LEFT,
