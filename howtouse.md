@@ -1,0 +1,34 @@
+# How To Use!
+
+1. In Your Main.py File Write:
+
+from issgraph import *
+import sys
+
+2. Write:
+window = Graphics(800, 600)
+
+3. And For The Loop:
+while True:
+    for event in window.game():
+        if event.type == window.shouldClose(): sys.exit()
+    window.paint(0, 0, 0)
+    window.update()
+
+4. and to create Sprites:
+while True:
+    for event in window.game():
+        if event.type == window.shouldClose(): sys.exit()
+    window.paint(0, 0, 0)
+    window.image(Img.img("z.png"), x_pos, y_pos)
+    window.update()
+
+5. Keyboard Input:
+while True:
+    for event in window.game():
+        if event.type == window.shouldClose(): sys.exit()
+    window.paint(0, 0, 0)
+    window.image(Img.img("z.png"), x_pos, y_pos)
+    if Utils.k(Utils.KEYS["right"]):
+        print("right")
+    window.update()
