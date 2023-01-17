@@ -41,6 +41,6 @@ class Utils():
         "lshift": pygame.K_LSHIFT,
         "rshift": pygame.K_RSHIFT
     }
-    def k(i):
+    def keys(i):
         n = pygame.key.get_pressed()
         return n[i]

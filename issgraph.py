@@ -1,5 +1,5 @@
 
 from graphics import Graphics, Img, Utils
 
-version = (0, 3, 2)
-codename = "Up Side Down"
+version = (0, 3, 3)
+codename = "A New Preview"
