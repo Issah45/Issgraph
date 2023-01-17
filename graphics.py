@@ -33,6 +33,8 @@ class Mouse():
         return pygame.mouse.get_pressed()
 
 class Utils():
+    def init():
+        pygame.init()
     KEYS = {
         "right": pygame.K_RIGHT,
         "left": pygame.K_LEFT,
