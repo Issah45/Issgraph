@@ -29,6 +29,16 @@ while True:
         if event.type == window.shouldClose(): sys.exit()
     window.paint(0, 0, 0)
     window.image(Img.img("z.png"), x_pos, y_pos)
-    if Utils.k(Utils.KEYS["right"]):
+    if Utils.keys(Utils.KEYS["right"]):
         print("right")
     window.update()
+
+6. Scaling
+scaled_image = Img.scale(Img.img("file.png"), width, height)
+
+7. Mouse
+Mouse.get_pos()
+Mouse.get_pressed()
+
+8. Collision
+Utils.collide(x1, y1, x2, y2, distance)
