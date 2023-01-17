@@ -1,4 +1,4 @@
-import pygame
+import pygame, math
 
 class Graphics():
     def __init__(self, w, h):
@@ -50,3 +50,9 @@ class Utils():
     def keys(i):
         n = pygame.key.get_pressed()
         return n[i]
+    def collide(x1, y1, x2, y2, s):
+        if abs(x1 - x2) < s:
+            if abs(y1 - y2) < s:
+                return True
+            else:
+                return False
