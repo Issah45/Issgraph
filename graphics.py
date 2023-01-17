@@ -17,6 +17,8 @@ class Graphics():
         pygame.display.update()
     def image(self, img, x, y):
         self.display.blit(img, (x, y))
+    def title(self, t):
+        pygame.display.set_caption(t)
 
 def img(i):
     return pygame.image.load(i)
