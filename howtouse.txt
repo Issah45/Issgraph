@@ -42,3 +42,8 @@ Mouse.get_pressed()
 
 8. Collision
 Utils.collide(x1, y1, x2, y2, distance)
+
+9. Sound
+Utils.sound.init()
+Utils.sound.music.load("file.wav")
+Utils.sound.music.play()
