@@ -1,5 +1,5 @@
 
-from graphics import Graphics, img, KEYS, k, COLORS
+from graphics import Graphics, Img, Utils
 
 version = (0, 2, 0)
-codename = "Stellar Expirience"
+codename = "Adventure Library"

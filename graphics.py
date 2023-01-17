@@ -20,30 +20,32 @@ class Graphics():
     def title(self, t):
         pygame.display.set_caption(t)
 
-def img(i):
-    return pygame.image.load(i)
+class Img():
+    def scale(i, w, h):
+        return pygame.transform.scale(i, (w, h))
+    def img(i):
+        return pygame.image.load(i)
 
-KEYS = {
-    "right": pygame.K_RIGHT,
-    "left": pygame.K_LEFT,
-    "up": pygame.K_UP,
-    "down": pygame.K_DOWN,
-    "z": pygame.K_z,
-    "x": pygame.K_x,
-    "a": pygame.K_a,
-    "b": pygame.K_b,
-    "esc": pygame.K_ESCAPE,
-    "enter": pygame.K_RETURN,
-    "lshift": pygame.K_LSHIFT,
-    "rshift": pygame.K_RSHIFT
-}
-
-COLORS = {
-    "red": (255, 0, 0),
-    "green": (0, 255, 0),
-    "blue": (0, 0, 255)
-}
-
-def k(i):
-    n = pygame.key.get_pressed()
-    return n[i]
+class Utils():
+    KEYS = {
+        "right": pygame.K_RIGHT,
+        "left": pygame.K_LEFT,
+        "up": pygame.K_UP,
+        "down": pygame.K_DOWN,
+        "z": pygame.K_z,
+        "x": pygame.K_x,
+        "a": pygame.K_a,
+        "b": pygame.K_b,
+        "esc": pygame.K_ESCAPE,
+        "enter": pygame.K_RETURN,
+        "lshift": pygame.K_LSHIFT,
+        "rshift": pygame.K_RSHIFT
+    }
+    COLORS = {
+        "red": (255, 0, 0),
+        "green": (0, 255, 0),
+        "blue": (0, 0, 255)
+    }
+    def k(i):
+        n = pygame.key.get_pressed()
+        return n[i]
