@@ -37,6 +37,7 @@ class Utils():
         pygame.init()
     def fontInit():
         pygame.font.init()
+    sound = pygame.mixer
     KEYS = {
         "right": pygame.K_RIGHT,
         "left": pygame.K_LEFT,
