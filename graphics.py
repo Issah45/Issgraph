@@ -56,3 +56,5 @@ class Utils():
                 return True
             else:
                 return False
+    def font(s, siz):
+        return pygame.font.Font(s, siz)
