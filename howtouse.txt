@@ -1,5 +1,10 @@
 How To Use!
 
+0. Install pygame:
+write:
+pip install pygame
+in the terminal
+
 1. In Your Main.py File Write:
 
 from issgraph import *
