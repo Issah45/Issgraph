@@ -1,7 +1,7 @@
 
 from graphics import Graphics, Img, Utils, Mouse
 
-version = (0, 3, 15)
-codename = "High In The Sky"
+version = (0, 4, 0)
+codename = "Time For A Revamp"
 
 print(f"Issgraph Codename: {codename}, Version: {version}")
