@@ -48,7 +48,7 @@ Mouse.get_pos()
 Mouse.get_pressed()
 
 8. Collision
-Utils.collide(x1, y1, x2, y2, distance)
+Utils.collide(x1, y1, x2, y2, width, height)
 
 9. Sound
 sound = Utils.sound()
