@@ -11,6 +11,8 @@ from issgraph import *
 import sys
 
 2. Write:
+Utils.init()
+
 window = Graphics(800, 600)
 
 3. And For The Loop:
@@ -49,6 +51,6 @@ Mouse.get_pressed()
 Utils.collide(x1, y1, x2, y2, distance)
 
 9. Sound
-Utils.sound.init()
-Utils.sound.music.load("file.wav")
-Utils.sound.music.play()
+sound = Utils.sound()
+sound.music.load("n.wav")
+sound.music.play()
