@@ -7,6 +7,7 @@ class Graphics():
         self.display = pygame.display.set_mode((w, h))
         self.KEYDOWN = pygame.KEYDOWN
         self.KEYUP = pygame.KEYUP
+        pygame.display.set_caption("Issgraph Window")
     def shouldClose(self):
         return pygame.QUIT
     def game(self):
