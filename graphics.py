@@ -24,7 +24,7 @@ class Graphics():
 class Img():
     def scale(i, w, h):
         return pygame.transform.scale(i, (w, h))
-    def img(i):
+    def image(i):
         return pygame.image.load(i)
 
 class Mouse():
@@ -40,7 +40,7 @@ class Utils():
         pygame.font.init()
     def sound():
         return pygame.mixer
-    KEYS = {
+    keys = {
         "right": pygame.K_RIGHT,
         "left": pygame.K_LEFT,
         "up": pygame.K_UP,

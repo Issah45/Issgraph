@@ -36,7 +36,7 @@ while True:
         if event.type == window.shouldClose(): sys.exit()
     window.paint(0, 0, 0)
     window.image(Img.img("z.png"), x_pos, y_pos)
-    if Utils.keys(Utils.keys["right"]):
+    if Utils.keys(Utils.KEYS["right"]):
         print("right")
     window.update()
 
