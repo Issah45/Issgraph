@@ -40,7 +40,7 @@ class Utils():
         pygame.font.init()
     def sound():
         return pygame.mixer
-    keys = {
+    k = {
         "right": pygame.K_RIGHT,
         "left": pygame.K_LEFT,
         "up": pygame.K_UP,
@@ -57,11 +57,11 @@ class Utils():
     def keys(i):
         n = pygame.key.get_pressed()
         return n[i]
-    def collide(x1, y1, x2, y2, s1, s2):
-        if abs(x1 - x2) < s1:
-            if abs(y1 - y2) < s2:
-                return True
-            else:
-                return False
+    # def collide(x1, y1, x2, y2, s1, s2):
+    #     if abs(x1 - x2) < s1:
+    #         if abs(y1 - y2) < s2:
+    #             return True
+    #         else:
+    #             return False
     def font(s, siz):
         return pygame.font.Font(s, siz)

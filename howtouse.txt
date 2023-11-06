@@ -27,7 +27,7 @@ while True:
     for event in window.game():
         if event.type == window.shouldClose(): sys.exit()
     window.paint(0, 0, 0)
-    window.image(Img.img("z.png"), x_pos, y_pos)
+    window.image(Img.image("z.png"), x_pos, y_pos)
     window.update()
 
 5. Keyboard Input:
@@ -35,19 +35,19 @@ while True:
     for event in window.game():
         if event.type == window.shouldClose(): sys.exit()
     window.paint(0, 0, 0)
-    window.image(Img.img("z.png"), x_pos, y_pos)
-    if Utils.keys(Utils.KEYS["right"]):
+    window.image(Img.image("z.png"), x_pos, y_pos)
+    if Utils.keys(Utils.k["right"]):
         print("right")
     window.update()
 
 6. Scaling
-scaled_image = Img.scale(Img.img("file.png"), width, height)
+scaled_image = Img.scale(Img.image("file.png"), width, height)
 
 7. Mouse
 Mouse.get_pos()
 Mouse.get_pressed()
 
-8. Collision
+8. Collision (Outdated)
 Utils.collide(x1, y1, x2, y2, width, height)
 
 9. Sound
